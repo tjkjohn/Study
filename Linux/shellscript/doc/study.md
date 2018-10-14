@@ -1,4 +1,4 @@
-###Shell scripting study
+### Shell scripting study
 
 1. VirtualBox and Vagrant 
    - How to automate loading of single or multiple VMs 
@@ -54,5 +54,5 @@
    - id
    - test  
 9. In a script, command with options can be assigned to a variable:    
-   VAR1 = $(id -un)
-   VAR1 = ‘id -un’.      <=== older convention 
+   VAR1 = $(id -un)  
+   VAR1 = ‘id -un’      <=== older convention 
