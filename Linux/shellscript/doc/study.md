@@ -28,7 +28,9 @@
      - can begin with alphabet or underscore but not a number.  
      - access the content by prefixing $ or wrap with ${var}     
        ${var} is specially useful if you want to concatenate with other text without spacing.            
-       e.g. ${var}ing, de${var}
+       ```
+       ${var}ing, de${var}
+       ```
    - single vs double quotes  
      - single quotes does not allow interpolation.   
      - double quotes allows interpolation, such as display or variable
@@ -55,6 +57,8 @@
      To find out the command type (alias, shell function, shell building, disk file or reserved word)
    - id
    - test  
-9. In a script, command with options can be assigned to a variable:    
+9. In a script, command with options can be assigned to a variable:  
+   ```  
    VAR1 = $(id -un)  
    VAR1 = ‘id -un’      <=== older convention 
+   ```
