@@ -1,10 +1,10 @@
 ###Shell scripting study
 
 1. VirtualBox and Vagrant 
-...- How to automate loading of single or multiple VMs 
-...- vagrant ssh to login to each loaded vm 
-...- vm can talk to each other 
-...- vm can access the host’s folder.
+   - How to automate loading of single or multiple VMs 
+   - vagrant ssh to login to each loaded vm 
+   - vm can talk to each other 
+   - vm can access the host’s folder.
 2. VIM commands 
 ...- cut and paste (Ctrl-V, y and p to paste) 
 ...- search, / or ? [search item]. Press n to search next or shift-n to search back.
