@@ -16,9 +16,11 @@
 5. Bash script
    - what is shebang #!  
      #! [Path to the interpreter]  
+     ```
      #!/bin/bash            <=== bash interpreter  
      #!/usr/bin/python      <=== python  
      #!/bin/ruby            <=== ruby
+     ```
    - chmod 755, default setting for script. To x, you must have r.
    - variables  
      - as a good practice, variable is all caps.   
