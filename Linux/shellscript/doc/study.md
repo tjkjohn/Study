@@ -21,22 +21,24 @@
      #!/bin/ruby            <=== ruby
    - chmod 755, default setting for script. To x, you must have r.
    - variables  
-     > as a good practice, variable is all caps.   
-     > assignment, a=b, must not have spacing between the =.  
-     > can begin with alphabet or underscore but not a number.  
-     > access the content by prefixing $ or wrap with ${var}     
+     - as a good practice, variable is all caps.   
+     - assignment, a=b, must not have spacing between the =.  
+     - can begin with alphabet or underscore but not a number.  
+     - access the content by prefixing $ or wrap with ${var}     
        ${var} is specially useful if you want to concatenate with other text without spacing.            
        e.g. ${var}ing, de${var}
    - single vs double quotes  
-     > single quotes does not allow interpolation.   
-     > double quotes allows interpolation, such as display or variable
+     - single quotes does not allow interpolation.   
+     - double quotes allows interpolation, such as display or variable
    - conditional statement   
+     ``` 
      if [[ “${UID} -eq 0 ]]                <=== observe the spacing. Single [ ] is old convention   
         then                               <=== next line can be substituted with ;       
            echo ‘You are root.’   
         else      
            echo ‘You are not root.’   
      fi
+     ```
    - ${?} to get the exit status
    - = vs == in conditional statement   
      = is to look for exact match   
